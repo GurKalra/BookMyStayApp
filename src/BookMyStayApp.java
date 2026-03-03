@@ -23,5 +23,12 @@ public class BookMyStayApp {
         UseCase3InventorySetup useCase3 =
                 new UseCase3InventorySetup();
         useCase3.execute();
+
+        System.out.println();
+        System.out.println("---------- Use Case 4 ----------");
+
+        UseCase4RoomSearch useCase4 =
+                new UseCase4RoomSearch();
+        useCase4.execute();
     }
 }
