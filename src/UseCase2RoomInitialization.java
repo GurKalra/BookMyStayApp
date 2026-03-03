@@ -5,12 +5,10 @@ public class UseCase2RoomInitialization {
         System.out.println("Hotel Room Initialization");
         System.out.println();
 
-        // Polymorphic references
         Room singleRoom = new SingleRoom();
         Room doubleRoom = new DoubleRoom();
         Room suiteRoom = new SuiteRoom();
 
-        // Static availability (intentionally simple)
         int singleAvailability = 5;
         int doubleAvailability = 3;
         int suiteAvailability = 2;
