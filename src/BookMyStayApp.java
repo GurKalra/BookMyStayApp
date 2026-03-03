@@ -30,5 +30,12 @@ public class BookMyStayApp {
         UseCase4RoomSearch useCase4 =
                 new UseCase4RoomSearch();
         useCase4.execute();
+
+        System.out.println();
+        System.out.println("---------- Use Case 5 ----------");
+
+        UseCase5BookingRequestQueue useCase5 =
+                new UseCase5BookingRequestQueue();
+        useCase5.execute();
     }
 }
