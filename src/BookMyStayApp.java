@@ -44,5 +44,12 @@ public class BookMyStayApp {
                 new UseCase6RoomAllocation();
         useCase6.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 7 ----------");
+
+        UseCase7AddOnServiceSelection useCase7 =
+                new UseCase7AddOnServiceSelection();
+        useCase7.execute();
+
     }
 }
