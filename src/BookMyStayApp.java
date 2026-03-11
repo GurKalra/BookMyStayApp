@@ -58,5 +58,12 @@ public class BookMyStayApp {
                 new UseCase8BookingHistoryReport();
         useCase8.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 9 ----------");
+
+        UseCase9ErrorHandlingValidation useCase9 =
+                new UseCase9ErrorHandlingValidation();
+        useCase9.execute();
+
     }
 }
