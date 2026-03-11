@@ -51,5 +51,12 @@ public class BookMyStayApp {
                 new UseCase7AddOnServiceSelection();
         useCase7.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 8 ----------");
+
+        UseCase8BookingHistoryReport useCase8 =
+                new UseCase8BookingHistoryReport();
+        useCase8.execute();
+
     }
 }
