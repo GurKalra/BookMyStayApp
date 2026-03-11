@@ -37,12 +37,5 @@ public class BookMyStayApp {
         UseCase5BookingRequestQueue useCase5 =
                 new UseCase5BookingRequestQueue();
         useCase5.execute();
-
-        System.out.println();
-        System.out.println("---------- Use Case 6 ----------");
-        UseCase6RoomAllocation useCase6 =
-                new UseCase6RoomAllocation();
-        useCase6.execute();
-
     }
 }
