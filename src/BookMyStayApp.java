@@ -79,5 +79,11 @@ public class BookMyStayApp {
                 new UseCase11ConcurrentBookingSimulation();
         useCase11.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 12 ----------");
+
+        UseCase12DataPersistenceRecovery useCase12 =
+                new UseCase12DataPersistenceRecovery();
+        useCase12.execute();
     }
 }
