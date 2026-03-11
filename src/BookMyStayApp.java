@@ -72,5 +72,12 @@ public class BookMyStayApp {
                 new UseCase10BookingCancellation();
         useCase10.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 11 ----------");
+
+        UseCase11ConcurrentBookingSimulation useCase11 =
+                new UseCase11ConcurrentBookingSimulation();
+        useCase11.execute();
+
     }
 }
