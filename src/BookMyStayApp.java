@@ -65,5 +65,12 @@ public class BookMyStayApp {
                 new UseCase9ErrorHandlingValidation();
         useCase9.execute();
 
+        System.out.println();
+        System.out.println("---------- Use Case 10 ----------");
+
+        UseCase10BookingCancellation useCase10 =
+                new UseCase10BookingCancellation();
+        useCase10.execute();
+
     }
 }
